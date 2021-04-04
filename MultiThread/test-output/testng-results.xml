@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15285" started-at="2020-05-09T00:40:05 IST" finished-at="2020-05-09T00:40:21 IST">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="14940" started-at="2020-05-09T00:40:05 IST" finished-at="2020-05-09T00:40:20 IST">
+      <class name="com.test.testcases.TC_001">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.testcases.TC_001@51cdd8a]" name="setup" is-config="true" duration-ms="4366" started-at="2020-05-09T00:40:05 IST" finished-at="2020-05-09T00:40:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="search(java.lang.String, java.lang.String)[pri:0, instance:com.test.testcases.TC_001@51cdd8a]" name="search" duration-ms="10511" started-at="2020-05-09T00:40:10 IST" finished-at="2020-05-09T00:40:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.google.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+      </class> <!-- com.test.testcases.TC_001 -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="15285" started-at="2020-05-09T00:40:05 IST" finished-at="2020-05-09T00:40:21 IST">
+      <class name="com.test.testcases.TC_002">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.testcases.TC_002@6ee52dcd]" name="setup" is-config="true" duration-ms="4366" started-at="2020-05-09T00:40:05 IST" finished-at="2020-05-09T00:40:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="search(java.lang.String, java.lang.String)[pri:0, instance:com.test.testcases.TC_002@6ee52dcd]" name="search" duration-ms="10865" started-at="2020-05-09T00:40:10 IST" finished-at="2020-05-09T00:40:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.google.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Maven]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+      </class> <!-- com.test.testcases.TC_002 -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
