@@ -2,20 +2,19 @@ package com.test.Factory;
 
 import org.openqa.selenium.WebDriver;
 
-public class DriverFactory {
+public final class DriverFactory {
 	
 	private DriverFactory() {
 		// do nothing..  do not allow initialize the class from outside
 		
 	}
 	
+	ThreadLocal<WebDriver> driver = new ThreadLocal<WebDriver>(); //thread local driver object for webdriver
 	private static DriverFactory instance = new DriverFactory();
 	
 	public static DriverFactory getInstance() {
 		return instance;
 	}
-	
-	ThreadLocal<WebDriver> driver = new ThreadLocal<WebDriver>(); //thread local driver object for webdriver
 	
 	public WebDriver getDriver() {
 		return driver.get();
